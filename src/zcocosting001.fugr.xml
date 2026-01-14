@@ -10,7 +10,6 @@
    <FUNCTIONS>
     <item>
      <FUNCNAME>ZCO_SAP_TO_ACS_0002</FUNCNAME>
-     <SHORT_TEXT>co工单与lot关系接口</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>PI_IN_WERKS</PARAMETER>
@@ -37,23 +36,19 @@
       <RSFDO>
        <PARAMETER>PI_IN_WERKS</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>表类型-工厂</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>PI_OUT</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>return message</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>PI_OUT_TABLE</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>co工单与lot关系接口传出表</STEXT>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_RFC_LOG_WRITE</FUNCNAME>
-     <SHORT_TEXT>rfc接口日志存储程序</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>IV_FUNCNAME</PARAMETER>
@@ -138,73 +133,59 @@
       <RSFDO>
        <PARAMETER>IV_FUNCNAME</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>函数名</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_UNAME</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>用户名</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_IMPORT01</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>传入参数1</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_IMPORT02</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>传入参数2</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_IMPORT03</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>传入参数3</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_EXPORT01</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>传出参数1</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_EXPORT02</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>传出参数2</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_EXPORT03</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>传出参数1</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_TABLE01</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>表参数1</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_TABLE02</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>表参数2</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_TABLE03</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>表参数3</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_TYPE</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>消息类型: S 成功,E 错误,W 警告,I 信息,A 中断</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_MSG</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>消息文本</STEXT>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_RFC_PARAMS_TO_JSON</FUNCNAME>
-     <SHORT_TEXT>JSON格式转换</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>IV_PARAM_STRUCTURE</PARAMETER>
